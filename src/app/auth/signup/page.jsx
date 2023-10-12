@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Notification from "../../../components/signup/notification";
 import { success, fail } from "../../../assets/pictures/iExport";
 import {
   AiOutlineEyeInvisible,
