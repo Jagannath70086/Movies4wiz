@@ -125,7 +125,8 @@ const Navbar = () => {
                       : "/"
                   }`}
                 >
-                  {React.createElement(Icon[item.icon], {
+                  {//@ts-ignore
+                  React.createElement(Icon[item.icon], {
                     size: 23,
                     className: "mx-6 my-1",
                   })}
@@ -269,7 +270,8 @@ const Navbar = () => {
                             : "/"
                         }`}
                       >
-                        {React.createElement(Icon[item.icon], {
+                        {//@ts-ignore
+                        React.createElement(Icon[item.icon], {
                           size: 20,
                           className: "mx-6",
                         })}
